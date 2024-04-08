@@ -5,9 +5,9 @@ const {getAllUsers, getOneUser, createOneUser} = require('../controllers/userCon
 // Getting all 
 router.get('/user',getAllUsers)
 // Getting one
-router.get('/card/:id',getOneUser)
+router.get('/user/:id',getOneUser)
 // Creating one
-router.post('/card',createOneUser)
+router.post('/user',createOneUser)
 
 
 module.exports = router
